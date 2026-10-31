@@ -8,6 +8,10 @@
     <!-- Classic scripts (not modules/fetch) so the game also runs from file:// -->
     <script src="data/bundle.js"></script>
     <script src="data/scripts.js"></script>
+    <script>
+      // Double-clicked the source index.html (not the build)? Open the playable offline build instead.
+      if (location.protocol === 'file:' && !window.SAMURAI_DATA) location.replace('dist/index.html');
+    </script>
   </head>
   <body>
     <div id="stage"><canvas id="game"></canvas></div>

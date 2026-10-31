@@ -18,8 +18,10 @@ Now with ninja stars, a machine gun, a bubble shield and a triple-jump flip.
 
 ## ▶️ Play
 
-**No install needed.** Download the repo and open **`dist/index.html`** in Chrome, Safari or Firefox.
+**No install needed.** Download the repo and double-click **`dist/index.html`** to open it in Chrome, Safari or Firefox.
 You don't need a server or an internet connection: the art, sounds, levels and code are all in `dist/`.
+
+> The `index.html` in the top folder is the source page for `npm run dev`. If you open it directly, it sends you to `dist/index.html`.
 
 ```sh
 git clone https://github.com/CassimClick/samurai-sam.git
