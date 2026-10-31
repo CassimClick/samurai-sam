@@ -1,0 +1,7 @@
+node_modules
+.extract
+.tools
+out
+.DS_Store
+*.log
+.vite

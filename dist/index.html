@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samurai Sam</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9A%94%EF%B8%8F%3C/text%3E%3C/svg%3E" />
+    <!-- Classic scripts (not modules/fetch) so the game also runs from file:// -->
+    <script src="data/bundle.js"></script>
+    <script src="data/scripts.js"></script>
+    <script defer src="./assets/index-C5k0ZAm2.js"></script>
+  </head>
+  <body>
+    <div id="stage"><canvas id="game"></canvas></div>
+
+    <div id="splash">
+      <h1>Samurai Sam</h1>
+      <div id="status">Loading…</div>
+      <button id="start" hidden>Click to play</button>
+      <div class="hint">Arrows: move · Space: jump · Z: attack · X: defend · Q: switch weapon · B: bubble shield</div>
+      <div class="credits">
+        <p><strong>Samurai Sam</strong> © 2006 Adam Searle, Jason Chow and Johnny Jei Le<br />Team Phoenix Games · originally published on Miniclip.com</p>
+        <p class="small">Unofficial fan recreation for personal play, rebuilt for modern browsers from the original game's own artwork, sounds, levels and code. All credit for the game belongs to its original creators.</p>
+      </div>
+    </div>
+
+    <div id="about" hidden>
+      <div class="panel">
+        <h2>Samurai Sam</h2>
+        <p>Original Flash game © 2006<br /><strong>Adam Searle, Jason Chow and Johnny Jei Le</strong><br />Team Phoenix Games</p>
+        <p>Originally published on <strong>Miniclip.com</strong>.</p>
+        <p>Creators' sites as listed in the game's credits (2006):<br />adamsearle.com · jasonchow.net · invertmethod.com</p>
+        <p class="small">This is an unofficial, non-commercial fan recreation that runs the original artwork, sounds, levels and game logic in a modern browser without Flash. The game is paused while this panel is open.</p>
+        <button id="aboutClose">Back to the game</button>
+      </div>
+    </div>
+
+    <button id="aboutBtn" class="corner" title="About / credits" hidden>ⓘ</button>
+    <button id="mute" class="corner" title="Sound on/off" hidden>🔊</button>
+    <button id="fullscreen" class="corner" title="Fullscreen" hidden>⛶</button>
+  </body>
+</html>
